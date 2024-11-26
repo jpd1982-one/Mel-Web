@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+/* Secciones */
+.section {
+    padding: 60px 0;
+}
+
+/* Estilo de la navbar */
+.navbar {
+    background-color: #9b59b6; /* Color violeta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra sutil */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+}
+
+.navbar a {
+    color: #fff !important; /* Asegura que los enlaces sean blancos */
+    font-weight: bold;
+}
+
+/* Logo en la barra */
+.navbar img {
+    max-width: 120px;
+    height: auto;
+}
+
+/* Sección "Quiénes somos" */
+#quienes-somos {
+    background-color: #7f20a5; /* Fondo morado para esta sección */
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 1.25rem;
+}
+
+#quienes-somos h2 {
+    color: #000000;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Sección "Nuestros productos" */
+#productos {
+    background-color: #7d04ad;
+    background-attachment: fixed;
+    color: #333;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* H2 en la sección de productos */
+#productos h2 {
+    color: #000; /* Color negro */
+    text-align: center; /* Asegura que esté centrado */
+    font-size: 2.5rem; /* Ajusta el tamaño si es necesario */
+    margin-bottom: 20px;
+}
+
+/* Sección "Contacto" */
+#contacto {
+    background-color: #9b59b6;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Estilo de los botones en la sección de contacto */
+.btn {
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: #9b59b6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Enlaces en el pie */
+footer a {
+    text-decoration: none;
+    color: #8e44ad;
+}
+
+/* Estilos de los botones y enlaces */
+a:hover,
+.navbar-nav .nav-link:hover {
+    color: #d39fdd !important;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #9b59b6;
+    }
+
+    .navbar a {
+        color: #fff !important;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff !important;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Centrado de imágenes en la sección de productos */
+    .row.justify-content-center {
+        display: flex;
+        justify-content: center;
+    }
+}
